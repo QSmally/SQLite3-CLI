@@ -1,0 +1,20 @@
+.{
+    .name = .SQLite3,
+    .version = "0.0.0",
+    .fingerprint = 0x670cc4bfb76decfd,
+    .minimum_zig_version = "0.14.1",
+
+    .dependencies = .{
+        .sqlite = .{
+            .url = "git+https://github.com/vrischmann/zig-sqlite#20211398f6114c9aac711a67a4fc5a2f42bac1f0",
+            .hash = "sqlite-3.48.0-F2R_awuMDgB5YDySyIsltg2fbJWc480EWhD04OIPnlbM",
+        }
+    },
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "Sources",
+        "README.md"
+    }
+}
